@@ -1,0 +1,339 @@
+@charset "iso-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#carousel {
+	margin: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	z-index: 0;
+}
+
+.carousel ul {
+	list-style: none;
+}
+
+#wrap {
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#faixa1 {
+	width: 100%;
+	height: 50px;
+	background-color: #060;
+}
+
+#menu {
+	width: auto;
+	height: 0px;
+	background-image: url(../img/bg-branco-80.png);
+	z-index: 1000;
+	margin-bottom: 0px;
+}
+
+#navigation {
+	margin-top: 0px;
+	width: 960px;
+	height: 100px;
+	padding-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	z-index: 1000;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navigation a {
+	margin-left: 0px;
+	color: #000;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navigation a:hover{
+	text-decoration: none;
+}
+
+#banner{
+	width: 100%;
+	height: 491px;
+	padding-top: 30px;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.logo {
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	z-index: 1000;
+	position: relative;
+	width: 960px;
+	color: #038B2C;
+
+
+}
+
+#conteudo {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: AUTO;
+	margin-bottom: 0px;
+	margin-left: AUTO;
+	z-index: 2000;
+	position: relative;
+	height: auto;
+	padding-bottom: 0px;
+}
+
+#icones {
+	height: 180px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#icone-1 {
+	float: left;
+	width: 143px;
+	margin-right: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#icone-1 a{
+	float: left;
+	width: 143px;
+	margin-right: 0px;
+	color: #999;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	height: auto;
+	font-size: 14px;
+	text-decoration: none;
+	background-image: url(../img/bg-branco.png);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	opacity: 0.5;
+}
+#icone-1 a:hover{
+	color: #FFFFFF;
+	opacity: 1;
+	background-color: #090;
+}
+
+
+
+
+
+
+
+
+
+#icone-2 {float: left;	width: 230px;	margin-right: 5px;	margin-left: 5px;}
+#icone-3 {float: left;	width: 230px;	margin-right: 5px;	margin-left: 5px;}
+#icone-4 {float: left;	width: 235px;	margin-left: 5px;}
+
+#icon {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.titulo {
+
+}
+
+.titulo a {
+
+}
+.titulo a:hover {
+	text-decoration: none;
+}
+
+.texto {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: -1px;
+	line-height: 14px;
+}
+
+.texto a { text-decoration: none; color: #999999;}
+.texto a:hover { text-decoration: underline; color: #666666;}
+
+#imagens {
+	margin: 30px auto;
+	width: 960px;
+	height: 118px;
+}
+
+#imagens img {
+	border: none;
+}
+
+#foto-1 {float: left;	width: 158px;	margin-right: 1px;}
+#foto-2 {float: left;	width: 158px;	margin-right: 1px;	margin-left: 1px;}
+#foto-3 {float: left;	width: 158px;	margin-right: 2px;	margin-left: 1px;}
+#foto-4 {float: left;	width: 158px;	margin-right: 1px;	margin-left: 1px;}
+#foto-5 {float: left;	width: 158px;	margin-right: 1px;	margin-left: 1px;}
+#foto-6 {float: left;	width: 158px;	margin-left: 1px;}
+.foto  {opacity: 0.6;}
+.foto:hover {opacity: 1;}
+
+#topicos {
+	margin: 0 auto;
+	width: 960px;
+	height: 85px;
+}
+
+#topico-1 {float: left;	width: 235px;	margin-right: 5px;}
+#topico-2 {float: left;	width: 230px;	margin-right: 5px;	margin-left: 5px;}
+#topico-3 {float: left;	width: 230px;	margin-right: 5px;	margin-left: 5px;}
+#topico-4 {float: left;	width: 235px;	margin-left: 5px;}
+
+.titulotopico {
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.titulotopico a { text-decoration: none; color: #666;}
+.titulotopico a:hover { text-decoration: underline;}
+
+.textotopico {
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: -1px;
+	line-height: 14px;
+}
+
+.textotopico a { text-decoration: none; color: #999999;}
+.textotopico a:hover { text-decoration: underline; color: #666666;}
+
+#rodape {
+	margin-top: 10px;
+	width: 600px;
+	height: auto;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+
+#google-maps {
+	float: left;
+	width: 310px;
+	height: 100px;
+	background-color: #999999;
+}
+
+#contato {
+	float: left;
+	margin-left: 0px;
+	width: 400px;
+	height: auto;
+}
+
+#fone {
+	float: left;
+}
+
+#numero {
+	float: left;
+	margin-left: 10px;
+}
+
+.ddd{color: #666;}
+.fn {color: #666; font-size: 25px;}
+
+#email {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 350px;
+	height: auto;
+}
+
+#mail {
+	float: left;
+}
+
+#emmail {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+	color: #666;
+}
+
+#local {
+	float: left;
+	margin-left: 0px;
+	width: 320px;
+	height: 25px;
+}
+
+#pin {
+	float: left;
+}
+
+#endereco {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	color: #666;
+}
+
+#faixa2 {
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+	background: #006600 repeat-x;
+	float: left;
+}
+
+#logo-rodape {
+	margin-left: auto;
+	height: 120px;
+	width: 1000px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.logo-rodape {
+	margin-top: 36px;
+	margin-left: 0px;
+	border: none;
+	float: right;
+	margin-right: -40px;
+}
+.texto-menu-grande {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+	text-align: center;
+	line-height: 16px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
